@@ -25,7 +25,7 @@ export const profile = {
   // Remove your phone number from the PDF before publishing it.
   resumeUrl: "",
   // Your photo, shown beside your name (portrait, roughly 4:5). Set to "" to hide it.
-  photo: "images/profile.svg",
+  photo: "images/profile.jpg",
 };
 
 // "Professional goals and objectives": a short statement, then 2–3 specific goals.
