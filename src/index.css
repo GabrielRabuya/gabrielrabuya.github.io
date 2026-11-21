@@ -284,9 +284,9 @@
 
 /* Profile photo beside the name. Portrait crop; the image fills the frame. */
 .hero-photo {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1;
   background: var(--paper-deep);
-  border-radius: var(--radius-lg);
+  border-radius: 50%;
   margin: 0;
   overflow: hidden;
   width: 100%;
@@ -296,7 +296,7 @@
   display: block;
   height: 100%;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 55%;
   width: 100%;
 }
 
