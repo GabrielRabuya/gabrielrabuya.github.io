@@ -1,0 +1,11 @@
+{
+  "title": "Your Name",
+  "description": "Portfolio of Your Name: goals, education, skills, projects, leadership and achievements.",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

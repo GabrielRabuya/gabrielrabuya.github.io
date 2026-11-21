@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#e4ddd0"/>
+  <rect x="24" y="24" width="752" height="952" fill="none" stroke="#b9b0a1" stroke-width="3" stroke-dasharray="16 10"/>
+  <text x="50%" y="48%" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="#1b2a41">Your photo</text>
+  <text x="50%" y="56%" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#62605c">portrait, about 4:5</text>
+</svg>
