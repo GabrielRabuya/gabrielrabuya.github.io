@@ -14,13 +14,15 @@
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const profile = {
-  name: "Your Name",
-  headline: "Your Course @ Your School", // typed out letter by letter on load
-  email: "your.email@example.com",
+  name: "Gabriel Bryce Rabuya Maximo",
+  headline: "Aerospace Engineering @ Temasek Polytechnic", // typed out letter by letter on load
+  email: "gabe.mex11@gmail.com",
+  // TODO: replace with your real LinkedIn profile URL and label.
   linkedin: "https://linkedin.com/in/your-profile",
   linkedinLabel: "linkedin.com/in/your-profile",
   // Optional: put your résumé PDF in public/ (e.g. public/resume.pdf) and set this to
   // "resume.pdf" to show a "View résumé" button. Leave "" to hide the button.
+  // Remove your phone number from the PDF before publishing it.
   resumeUrl: "",
   // Your photo, shown beside your name (portrait, roughly 4:5). Set to "" to hide it.
   photo: "images/profile.svg",
@@ -29,43 +31,68 @@ export const profile = {
 // "Professional goals and objectives": a short statement, then 2–3 specific goals.
 export const goals = {
   statement:
-    "One or two sentences on what you study, the field you want to work in, and what kind of internship or role you are looking for.",
+    "I am an Aerospace Engineering diploma student at Temasek Polytechnic with a hands-on interest in how machines and equipment are built, maintained and kept running safely. I am looking for a technician role or internship where I can install, maintain and troubleshoot equipment in a manufacturing or aerospace environment.",
   objectives: [
-    "A learning goal: what you want to get better at, and how (projects, certifications, courses).",
-    "A career goal: the industry or kind of work you want to do, and why it matters to you.",
-    "A long-term goal: where you want your skills to take you in a few years.",
+    "Learning: build practical troubleshooting skills on real equipment by diagnosing electrical and mechanical faults, working from manuals, drawings and circuit diagrams.",
+    "Career: contribute to reliable, safe manufacturing operations through preventive maintenance and careful reporting of equipment abnormalities.",
+    "Long-term: grow into an aerospace maintenance or manufacturing engineering role, working towards relevant licences and certifications.",
   ],
 };
 
 // Most recent first. Leave detail as "" if there is nothing to show (e.g. no GPA).
 export const education = [
   {
-    period: "2025 – Present",
-    title: "Diploma in Your Course",
-    school: "School of Your School, Your Polytechnic",
-    detail: "GPA 0.00 / 4.00",
+    period: "Apr 2025 – Present",
+    title: "Diploma in Aerospace Engineering",
+    school: "School of Engineering, Temasek Polytechnic",
+    detail: "cGPA 3.65 / 4.00",
   },
   {
     period: "2021 – 2024",
     title: "Singapore-Cambridge GCE Ordinary Level",
-    school: "Your Secondary School",
-    detail: "",
+    school: "Changkat Changi Secondary School",
+    detail: "Distinctions in Literature & Mathematics",
   },
 ];
 
 // "Fundamental skills": group them however suits you. Add or remove groups freely.
 export const technicalSkills = [
-  { title: "Languages", items: ["Language 1", "Language 2", "Language 3"] },
-  { title: "Frameworks & Platforms", items: ["Framework 1", "Platform 1"] },
-  { title: "Databases", items: ["Database 1", "Database 2"] },
-  { title: "Tools", items: ["Tool 1", "Tool 2", "Tool 3"] },
+  {
+    title: "Engineering & Design",
+    items: ["Reading engineering drawings", "3D CAD modelling", "3D printing", "Prototyping & testing"],
+  },
+  {
+    title: "Electronics & Instruments",
+    items: ["Reading circuit diagrams", "Multimeter", "Oscilloscope", "Signal generator"],
+  },
+  {
+    title: "Software & Data",
+    items: ["Python (data visualisation)", "Excel (data logging & statistics)"],
+  },
+  {
+    title: "Relevant Modules",
+    items: [
+      "Gas Turbine Engine (A)",
+      "Electronic Devices & Circuits (A)",
+      "Digital Fundamentals 1 (A)",
+      "Circuit Analysis",
+      "Engineering Materials",
+    ],
+  },
+  {
+    title: "Generic Skills",
+    items: [
+      "Safety awareness",
+      "Problem-solving under pressure",
+      "Teamwork",
+      "Following procedures & protocols",
+      "Adapting to shifting deadlines",
+    ],
+  },
 ];
 
 // Delete every item to hide the Certifications list.
-export const certifications = [
-  { title: "Certification name", issuer: "Issuing organisation" },
-  { title: "Another certification", issuer: "Issuing organisation" },
-];
+export const certifications: { title: string; issuer: string }[] = [];
 
 // "Project work showcasing your achievements". Shown as alternating rows
 // (image left, then right). The order here is the order on the page.
@@ -83,38 +110,26 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Ping Pong Ball Launcher",
     period: "2026",
-    role: "Your Role",
+    role: "Principles of Dynamics",
     summary:
-      "What the project is and who it is for. What you built or designed, and the most interesting problem you solved. The result, with a number if you have one.",
-    tools: ["Tool 1", "Tool 2", "Tool 3"],
+      "Designed, 3D-printed and assembled a working launcher that had to hit a target at two different heights. I iterated the CAD model based on test results to improve accuracy, then used data from earlier test runs to pick the most accurate angle settings for the final assessment.",
+    tools: ["3D CAD", "3D printing", "Test & iterate", "Projectile dynamics"],
     image: "images/project.svg",
     imageSize: [1600, 900],
-    imageAlt: "Screenshot of Project One",
-    link: { label: "View code", url: "https://github.com/your-username/project-one" },
+    imageAlt: "The ping pong ball launcher assembled on a test bench",
   },
   {
-    title: "Project Two",
+    title: "Popsicle Stick Truss Bridge",
     period: "2025",
-    role: "Your Role",
+    role: "Statics & Strength of Materials",
     summary:
-      "What the project is and who it is for. What you built or designed, and the most interesting problem you solved. The result, with a number if you have one.",
-    tools: ["Tool 1", "Tool 2"],
+      "Built and load-tested a truss bridge made of popsicle sticks to carry increasing loads. I documented each failed attempt to improve the construction method, and applied statics and materials theory to maximise the bridge's load-bearing capacity in the final assessment.",
+    tools: ["Truss design", "Statics", "Load testing", "Failure analysis"],
     image: "images/project.svg",
     imageSize: [1600, 900],
-    imageAlt: "Screenshot of Project Two",
-  },
-  {
-    title: "Project Three",
-    period: "2025",
-    role: "Your Role",
-    summary:
-      "What the project is and who it is for. What you built or designed, and the most interesting problem you solved. The result, with a number if you have one.",
-    tools: ["Tool 1", "Tool 2", "Tool 3"],
-    image: "images/project.svg",
-    imageSize: [1600, 900],
-    imageAlt: "Screenshot of Project Three",
+    imageAlt: "The popsicle stick truss bridge under load testing",
   },
 ];
 
@@ -132,38 +147,43 @@ type Involvement = {
 
 export const involvement: Involvement[] = [
   {
-    period: "2026 – Present",
-    title: "Your Role, Your CCA or Club",
+    period: "Jun 2025 – Present",
+    title: "Member, Temasek Polytechnic Band",
     image: "images/cca.svg",
-    imageAlt: "Describe what is happening in the photo",
+    imageAlt: "Temasek Polytechnic Band performing on campus",
     points: [
-      "Start with an action verb, say what you did, and end with the result or impact",
-      "A second point, with a number if you can (people led, events run, items managed)",
+      "Assisted with stage setup and instrument transport for major performances across campus, allowing efficient preparation",
+      "Persevered towards shared goals through tight and shifting rehearsal schedules",
+      "Adapted quickly to far more complex and challenging music, showing a strong willingness to learn",
     ],
   },
   {
-    period: "2026 – Present",
-    title: "Class Representative (Your Class)",
-    points: ["A role without a photo: leave out image and imageAlt"],
+    period: "Apr 2021 – Apr 2024",
+    title: "Quartermaster, Concert Band, Changkat Changi Secondary School",
+    image: "images/cca.svg",
+    imageAlt: "Changkat Changi Secondary School Concert Band",
+    points: [
+      "Managed inventory, instrument handling and storage orderliness to prevent loss or damage to the band's instruments",
+      "Enforced safety and discipline among band members to ensure proper conduct during CCA",
+    ],
   },
   {
-    period: "2021 – 2024",
-    title: "Your Rank | Your Appointment, Your Secondary School CCA",
-    image: "images/cca.svg",
-    imageAlt: "Describe what is happening in the photo",
+    period: "Jan 2022 – Dec 2022",
+    title: "Class Chairperson, Changkat Changi Secondary School",
     points: [
-      "What you were responsible for, and what it shows about you",
-      "Something you achieved or helped the group achieve",
+      "Facilitated class cohesion and teamwork to accomplish multiple class tasks",
+      "Identified hazards during class activities to keep the environment safe",
     ],
   },
 ];
 
 // Shown in the same alternating layout as Projects, with a photo of each certificate.
 // Blur or crop out anything private (signatures, IC numbers) before adding the photo.
+// stat is optional: leave it out if there is no figure to highlight.
 type Achievement = {
   title: string;
   detail: string;
-  stat: { value: string; label: string };
+  stat?: { value: string; label: string };
   description: string;
   image: string;
   imageSize: [number, number];
@@ -172,22 +192,47 @@ type Achievement = {
 
 export const achievements: Achievement[] = [
   {
-    title: "Award Name",
-    detail: "AY 2025/2026",
-    stat: { value: "Top 10%", label: "of students" },
-    description: "One sentence on who gave the award and what it recognises.",
+    title: "Best in Literature in English",
+    detail: "Changkat Changi Secondary School · 2025",
+    stat: { value: "Top", label: "in Literature, GCE 'O' Level Examinations 2024" },
+    description:
+      "Awarded by Changkat Changi Secondary School for the top academic performance in Literature in English at the 2024 GCE 'O' Level Examinations.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
-    imageAlt: "Certificate for Award Name",
+    imageAlt: "Certificate for Best in Literature in English",
   },
   {
-    title: "Another Award",
-    detail: "AY 2025/2026",
-    stat: { value: "Top 25%", label: "of students in my level and course" },
-    description: "One sentence on who gave the award and what it recognises.",
+    title: "Edusave Award",
+    detail: "Changkat Changi Secondary School · 2025",
+    description:
+      "Recognises leadership qualities and excellence in non-academic activities.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
-    imageAlt: "Certificate for Another Award",
+    imageAlt: "Certificate for the Edusave Award",
+  },
+  {
+    title: "Edusave Certificate of Academic Achievement",
+    detail: "Changkat Changi Secondary School · 2025",
+    description: "Recognises good academic performance.",
+    image: "images/certificate.svg",
+    imageSize: [1240, 1754],
+    imageAlt: "Edusave Certificate of Academic Achievement",
+  },
+  {
+    title: "CCC – CDC Education Merit Award",
+    detail: "Changkat Changi Secondary School · 2024",
+    description: "Recognises good academic performance.",
+    image: "images/certificate.svg",
+    imageSize: [1240, 1754],
+    imageAlt: "Certificate for the CCC – CDC Education Merit Award",
+  },
+  {
+    title: "Edusave Scholarship",
+    detail: "Changkat Changi Secondary School · 2022",
+    description: "Recognises excellent academic performance.",
+    image: "images/certificate.svg",
+    imageSize: [1240, 1754],
+    imageAlt: "Certificate for the Edusave Scholarship",
   },
 ];
 

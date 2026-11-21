@@ -400,16 +400,20 @@ function HomePage() {
           ))}
         </div>
 
-        <h3 className="subheading reveal">Certifications</h3>
-        <div className="rows">
-          {certifications.map((cert) => (
-            <article className="row row--compact reveal" key={cert.title}>
-              <p className="row-source">{cert.issuer}</p>
-              <h4>{cert.title}</h4>
-              <span />
-            </article>
-          ))}
-        </div>
+        {certifications.length > 0 && (
+          <>
+            <h3 className="subheading reveal">Certifications</h3>
+            <div className="rows">
+              {certifications.map((cert) => (
+                <article className="row row--compact reveal" key={cert.title}>
+                  <p className="row-source">{cert.issuer}</p>
+                  <h4>{cert.title}</h4>
+                  <span />
+                </article>
+              ))}
+            </div>
+          </>
+        )}
       </Section>
 
       {projects.length > 0 && (
