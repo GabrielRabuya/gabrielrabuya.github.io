@@ -210,8 +210,7 @@ export const achievements: Achievement[] = [
   {
     title: "Edusave Award (Eagles)",
     detail: "Changkat Changi Secondary School · 2024",
-    description:
-      "Recognises leadership qualities and excellence in non-academic activities.",
+    description: "Awarded by the Ministry of Education for leadership qualities and excellence in non-academic activities.",
     image: "images/achievements/edusave-eagles.jpeg",
     imageSize: [1469, 2048],
     imageAlt: "Certificate for the Edusave Award (Eagles)",
@@ -219,7 +218,7 @@ export const achievements: Achievement[] = [
   {
     title: "Edusave Certificate of Academic Achievement",
     detail: "Changkat Changi Secondary School · 2024",
-    description: "Recognises strong academic performance.",
+    description: "Awarded by the Ministry of Education for good academic performance and conduct.",
     image: "images/achievements/edusave-academic-achievement.jpeg",
     imageSize: [1494, 2048],
     imageAlt: "Edusave Certificate of Academic Achievement",
@@ -227,7 +226,7 @@ export const achievements: Achievement[] = [
   {
     title: "CCC – CDC Education Merit Award",
     detail: "Changkat Changi Secondary School · 2023",
-    description: "Awarded by the Ministry of Education for excellent academic performance.",
+    description: "Awarded by the North East Community Development Council for excellent academic performance.",
     image: "images/achievements/ccc-cdc-merit.jpeg",
     imageSize: [1429, 2048],
     imageAlt: "Certificate for the CCC – CDC Education Merit Award",
