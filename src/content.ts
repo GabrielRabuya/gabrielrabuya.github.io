@@ -33,9 +33,9 @@ export const goals = {
   statement:
     "I'm an Aerospace Engineering student at Temasek Polytechnic with a keen interest in Maintenance Engineering. I'm interested in a technician role or internship where I can install, troubleshoot and maintain equipment in an aerospace or manufacturing environment.",
   objectives: [
-    "Learning: build practical troubleshooting skills on real equipment through diagnosing electrical and mechanical faults, using circuit diagrams, engineering drawings and manuals.",
-    "Career: contribute to reliable, safe manufacturing operations through scheduled preventive maintenance and accurate reporting of equipment abnormalities.",
-    "Long-term: progress into an aerospace maintenance or manufacturing engineering role while working toward relevant industry licenses and certifications.",
+    "Build practical troubleshooting skills on real equipment through diagnosing electrical and mechanical faults, using circuit diagrams, engineering drawings and manuals.",
+    "Contribute to reliable, safe manufacturing operations through scheduled preventive maintenance and accurate reporting of equipment abnormalities.",
+    "Progress into an aerospace maintenance or manufacturing engineering role while working toward relevant industry licenses and certifications.",
   ],
 };
 
@@ -116,9 +116,9 @@ export const projects: Project[] = [
     summary:
       "Designed, 3D-printed and assembled a working launcher that had to hit a target at two different heights. Iterated the CAD model based on test results to improve accuracy, and used test data to select the most accurate launch angles for the final assessment.",
     tools: ["3D CAD", "3D printing", "Component assembly", "Test & iterate", "Projectile dynamics"],
-    image: "images/project.svg",
-    imageSize: [1600, 900],
-    imageAlt: "The ping pong ball launcher assembled on a test bench",
+    image: "images/projects/ping-pong-launcher.jpeg",
+    imageSize: [2036, 2048],
+    imageAlt: "The 3D-printed ping pong ball launcher",
   },
   {
     title: "Popsicle Stick Truss Bridge",
@@ -127,9 +127,9 @@ export const projects: Project[] = [
     summary:
       "Constructed and load-tested a popsicle stick truss bridge to bear increasing loads. Documented structural failure modes across prototypes to refine assembly methods, applying statics and materials theory to maximize load-bearing capacity for final evaluation.",
     tools: ["Truss design", "Statics", "Load testing", "Failure analysis"],
-    image: "images/project.svg",
-    imageSize: [1600, 900],
-    imageAlt: "The popsicle stick truss bridge under load testing",
+    image: "images/projects/truss-bridge.jpeg",
+    imageSize: [2000, 1500],
+    imageAlt: "The completed popsicle stick truss bridge",
   },
 ];
 
@@ -149,7 +149,7 @@ export const involvement: Involvement[] = [
   {
     period: "Jun 2025 – Present",
     title: "Member, Temasek Polytechnic Band",
-    image: "images/cca.svg",
+    image: "images/tp-band.jpeg",
     imageAlt: "Temasek Polytechnic Band performing on campus",
     points: [
       "Assisted with stage setup and instrument transport for major performances across campus, allowing efficient preparation",
@@ -196,8 +196,8 @@ export const achievements: Achievement[] = [
     detail: "Changkat Changi Secondary School · 2025",
     description:
       "Awarded by Changkat Changi Secondary School for top academic performance in Literature in English in GCE 'O' Level Examinations 2024.",
-    image: "images/certificate.svg",
-    imageSize: [1240, 1754],
+    image: "images/achievements/best-in-literature.jpeg",
+    imageSize: [1492, 2048],
     imageAlt: "Certificate for Best in Literature in English",
   },
   {
@@ -205,32 +205,32 @@ export const achievements: Achievement[] = [
     detail: "Changkat Changi Secondary School · 2025",
     description:
       "Recognises leadership qualities and excellence in non-academic activities.",
-    image: "images/certificate.svg",
-    imageSize: [1240, 1754],
+    image: "images/achievements/edusave-eagles.jpeg",
+    imageSize: [1469, 2048],
     imageAlt: "Certificate for the Edusave Award (Eagles)",
   },
   {
     title: "Edusave Certificate of Academic Achievement",
     detail: "Changkat Changi Secondary School · 2025",
     description: "Recognises strong academic performance.",
-    image: "images/certificate.svg",
-    imageSize: [1240, 1754],
+    image: "images/achievements/edusave-academic-achievement.jpeg",
+    imageSize: [1494, 2048],
     imageAlt: "Edusave Certificate of Academic Achievement",
   },
   {
     title: "CCC – CDC Education Merit Award",
     detail: "Changkat Changi Secondary School · 2024",
     description: "Recognises strong academic performance.",
-    image: "images/certificate.svg",
-    imageSize: [1240, 1754],
+    image: "images/achievements/ccc-cdc-merit.jpeg",
+    imageSize: [1429, 2048],
     imageAlt: "Certificate for the CCC – CDC Education Merit Award",
   },
   {
     title: "Edusave Scholarship",
     detail: "Changkat Changi Secondary School · 2022",
     description: "Recognises excellent academic performance.",
-    image: "images/certificate.svg",
-    imageSize: [1240, 1754],
+    image: "images/achievements/edusave-scholarship.jpeg",
+    imageSize: [1386, 2048],
     imageAlt: "Certificate for the Edusave Scholarship",
   },
 ];
