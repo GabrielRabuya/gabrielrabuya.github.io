@@ -227,7 +227,7 @@ export const achievements: Achievement[] = [
   {
     title: "CCC – CDC Education Merit Award",
     detail: "Changkat Changi Secondary School · 2023",
-    description: "Recognises strong academic performance.",
+    description: "Awarded by the Ministry of Education for excellent academic performance.",
     image: "images/achievements/ccc-cdc-merit.jpeg",
     imageSize: [1429, 2048],
     imageAlt: "Certificate for the CCC – CDC Education Merit Award",
@@ -235,7 +235,7 @@ export const achievements: Achievement[] = [
   {
     title: "Edusave Scholarship",
     detail: "Changkat Changi Secondary School · 2021",
-    description: "Recognises excellent academic performance.",
+    description: "Awarded by the Ministry of Education for excellent academic performance and conduct.",
     image: "images/achievements/edusave-scholarship.jpeg",
     imageSize: [1386, 2048],
     imageAlt: "Certificate for the Edusave Scholarship",
