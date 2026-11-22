@@ -83,8 +83,8 @@ export const technicalSkills = [
     title: "Generic Skills",
     items: [
       "Safety Awareness",
-      "Problem-Solving Under Pressure",
-      "Teamwork",
+      "Diagnostic Problem-Solving",
+      "Team Coordination",
       "Procedure & Protocol Adherence",
       "Deadline Adaptability",
     ],
