@@ -160,7 +160,7 @@ export const involvement: Involvement[] = [
     imageAlt: "Temasek Polytechnic Band performing on campus",
     points: [
       "Assisted with stage setup and instrument transport for major performances across campus, allowing efficient preparation",
-      "Persevered towards shared goals through tight and shifting rehearsal schedules",
+      "Persevered towards shared goals through tight and shifting rehearsal schedules while balancing an intensive engineering course load",
       "Adapted quickly to far more complex and challenging music, by taking initiative to independently practice and learn",
     ],
   },
