@@ -59,15 +59,15 @@ export const education = [
 export const technicalSkills = [
   {
     title: "Engineering & Design",
-    items: ["Reading engineering drawings", "3D CAD modelling", "3D printing", "Prototyping & testing"],
+    items: ["Reading Engineering Drawings", "3D CAD Modelling", "3D Printing", "Prototyping & Testing"],
   },
   {
     title: "Electronics & Instruments",
-    items: ["Reading circuit diagrams", "Multimeter", "Oscilloscope", "Signal generator"],
+    items: ["Reading Circuit Diagrams", "Oscilloscopes", "Signal Generators"],
   },
   {
     title: "Software & Data",
-    items: ["Python (data visualisation)", "Excel (data logging & statistics)"],
+    items: ["Python", "Excel", "Creo Parametric", "Autodesk Fusion"],
   },
   {
     title: "Relevant Modules",
@@ -82,11 +82,11 @@ export const technicalSkills = [
   {
     title: "Generic Skills",
     items: [
-      "Safety awareness",
-      "Problem-solving under pressure",
+      "Safety Awareness",
+      "Problem-Solving Under Pressure",
       "Teamwork",
-      "Following procedures & protocols",
-      "Adapting to shifting deadlines",
+      "Procedure & Protocol Adherence",
+      "Deadline Adaptability",
     ],
   },
 ];

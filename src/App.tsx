@@ -353,7 +353,7 @@ function HomePage() {
     <main id="main-content">
       <Hero />
 
-      <Section id="goals" title="Professional goals" tinted>
+      <Section id="goals" title="Professional Goals" tinted>
         <div className="goals reveal">
           <p className="goals-statement">{goals.statement}</p>
           <ul className="rule-list">
@@ -439,7 +439,7 @@ function HomePage() {
 
       <Section
         id="involvement"
-        title="Leadership & co-curricular activities"
+        title="Leadership & Co-Curricular Activities"
         tinted={projects.length > 0}
       >
         <div className="rows">
