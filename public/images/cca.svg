@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
-  <rect width="1200" height="900" fill="#e4ddd0"/>
-  <rect x="36" y="36" width="1128" height="828" fill="none" stroke="#b9b0a1" stroke-width="5" stroke-dasharray="24 14"/>
-  <text x="50%" y="48%" text-anchor="middle" font-family="Georgia, serif" font-size="72" fill="#1b2a41">CCA photo</text>
-  <text x="50%" y="56%" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="#62605c">cropped to 4:3</text>
-</svg>

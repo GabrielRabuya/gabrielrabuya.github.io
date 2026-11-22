@@ -17,9 +17,8 @@ export const profile = {
   name: "Gabriel Bryce Rabuya Maximo",
   headline: "Aerospace Engineering @ Temasek Polytechnic", // typed out letter by letter on load
   email: "gabe.mex11@gmail.com",
-  // TODO: replace with your real LinkedIn profile URL and label.
-  linkedin: "https://linkedin.com/in/your-profile",
-  linkedinLabel: "linkedin.com/in/your-profile",
+  linkedin: "https://www.linkedin.com/in/gabriel-maximo-7b28a63a5/",
+  linkedinLabel: "linkedin.com/in/gabriel-maximo-7b28a63a5",
   // Optional: put your résumé PDF in public/ (e.g. public/resume.pdf) and set this to
   // "resume.pdf" to show a "View résumé" button. Leave "" to hide the button.
   // Remove your phone number from the PDF before publishing it.
@@ -58,7 +57,7 @@ export const education: {
     period: "2021 – 2024",
     title: "Singapore-Cambridge GCE Ordinary Level",
     school: "Changkat Changi Secondary School",
-    detail: "Achieved 15 credits",
+    detail: "Achieved 15 Credits",
     detailNote: "Distinctions in Literature & Mathematics",
   },
 ];
@@ -123,7 +122,7 @@ export const projects: Project[] = [
     role: "Principles of Dynamics",
     summary:
       "Designed, 3D-printed and assembled a working launcher that had to hit a target at two different heights. Iterated the CAD model based on test results to improve accuracy, and used test data to select the most accurate launch angles for the final assessment.",
-    tools: ["3D CAD", "3D printing", "Component assembly", "Test & iterate", "Projectile dynamics"],
+    tools: ["3D CAD", "3D Printing", "Component Assembly", "Test & Iterate", "Projectile Dynamics"],
     image: "images/projects/ping-pong-launcher.jpeg",
     imageSize: [2036, 2048],
     imageAlt: "The 3D-printed ping pong ball launcher",
@@ -134,7 +133,7 @@ export const projects: Project[] = [
     role: "Statics & Strength of Materials",
     summary:
       "Constructed and load-tested a popsicle stick truss bridge to bear increasing loads. Documented structural failure modes across prototypes to refine assembly methods, applying statics and materials theory to maximize load-bearing capacity for final evaluation.",
-    tools: ["Truss design", "Statics", "Load testing", "Failure analysis"],
+    tools: ["Truss Design", "Statics", "Load Testing", "Failure Analysis"],
     image: "images/projects/truss-bridge.jpeg",
     imageSize: [2000, 1500],
     imageAlt: "The completed popsicle stick truss bridge",
@@ -168,8 +167,8 @@ export const involvement: Involvement[] = [
   {
     period: "Apr 2021 – Apr 2024",
     title: "Quartermaster, Concert Band, Changkat Changi Secondary School",
-    image: "images/cca.svg",
-    imageAlt: "Changkat Changi Secondary School Concert Band",
+    image: "images/changkat-band.jpeg",
+    imageAlt: "Student leaders at the Changkat Changi Secondary School Student Leaders' Investiture Ceremony 2024",
     points: [
       "Managed inventory, instrument handling and storage orderliness to prevent loss or damage to the band's instruments",
       "Enforced safety and discipline among band members to ensure proper conduct during band",
