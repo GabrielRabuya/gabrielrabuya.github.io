@@ -31,11 +31,11 @@ export const profile = {
 // "Professional goals and objectives": a short statement, then 2–3 specific goals.
 export const goals = {
   statement:
-    "I am an Aerospace Engineering diploma student at Temasek Polytechnic with a hands-on interest in how machines and equipment are built, maintained and kept running safely. I am looking for a technician role or internship where I can install, maintain and troubleshoot equipment in a manufacturing or aerospace environment.",
+    "I'm an Aerospace Engineering student at Temasek Polytechnic with a keen interest in Maintenance Engineering. I'm interested in a technician role or internship where I can install, troubleshoot and maintain equipment in an aerospace or manufacturing environment.",
   objectives: [
-    "Learning: build practical troubleshooting skills on real equipment by diagnosing electrical and mechanical faults, working from manuals, drawings and circuit diagrams.",
-    "Career: contribute to reliable, safe manufacturing operations through preventive maintenance and careful reporting of equipment abnormalities.",
-    "Long-term: grow into an aerospace maintenance or manufacturing engineering role, working towards relevant licences and certifications.",
+    "Learning: build practical troubleshooting skills on real equipment through diagnosing electrical and mechanical faults, using circuit diagrams, engineering drawings and manuals.",
+    "Career: contribute to reliable, safe manufacturing operations through scheduled preventive maintenance and accurate reporting of equipment abnormalities.",
+    "Long-term: progress into an aerospace maintenance or manufacturing engineering role while working toward relevant industry licenses and certifications.",
   ],
 };
 
@@ -114,8 +114,8 @@ export const projects: Project[] = [
     period: "2026",
     role: "Principles of Dynamics",
     summary:
-      "Designed, 3D-printed and assembled a working launcher that had to hit a target at two different heights. I iterated the CAD model based on test results to improve accuracy, then used data from earlier test runs to pick the most accurate angle settings for the final assessment.",
-    tools: ["3D CAD", "3D printing", "Test & iterate", "Projectile dynamics"],
+      "Designed, 3D-printed and assembled a working launcher that had to hit a target at two different heights. Iterated the CAD model based on test results to improve accuracy, and used test data to select the most accurate launch angles for the final assessment.",
+    tools: ["3D CAD", "3D printing", "Component assembly", "Test & iterate", "Projectile dynamics"],
     image: "images/project.svg",
     imageSize: [1600, 900],
     imageAlt: "The ping pong ball launcher assembled on a test bench",
@@ -125,7 +125,7 @@ export const projects: Project[] = [
     period: "2025",
     role: "Statics & Strength of Materials",
     summary:
-      "Built and load-tested a truss bridge made of popsicle sticks to carry increasing loads. I documented each failed attempt to improve the construction method, and applied statics and materials theory to maximise the bridge's load-bearing capacity in the final assessment.",
+      "Constructed and load-tested a popsicle stick truss bridge to bear increasing loads. Documented structural failure modes across prototypes to refine assembly methods, applying statics and materials theory to maximize load-bearing capacity for final evaluation.",
     tools: ["Truss design", "Statics", "Load testing", "Failure analysis"],
     image: "images/project.svg",
     imageSize: [1600, 900],
@@ -164,7 +164,7 @@ export const involvement: Involvement[] = [
     imageAlt: "Changkat Changi Secondary School Concert Band",
     points: [
       "Managed inventory, instrument handling and storage orderliness to prevent loss or damage to the band's instruments",
-      "Enforced safety and discipline among band members to ensure proper conduct during CCA",
+      "Enforced safety and discipline among band members to ensure proper conduct during band",
     ],
   },
   {
@@ -194,26 +194,25 @@ export const achievements: Achievement[] = [
   {
     title: "Best in Literature in English",
     detail: "Changkat Changi Secondary School · 2025",
-    stat: { value: "Top", label: "in Literature, GCE 'O' Level Examinations 2024" },
     description:
-      "Awarded by Changkat Changi Secondary School for the top academic performance in Literature in English at the 2024 GCE 'O' Level Examinations.",
+      "Awarded by Changkat Changi Secondary School for top academic performance in Literature in English in GCE 'O' Level Examinations 2024.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
     imageAlt: "Certificate for Best in Literature in English",
   },
   {
-    title: "Edusave Award",
+    title: "Edusave Award (Eagles)",
     detail: "Changkat Changi Secondary School · 2025",
     description:
       "Recognises leadership qualities and excellence in non-academic activities.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
-    imageAlt: "Certificate for the Edusave Award",
+    imageAlt: "Certificate for the Edusave Award (Eagles)",
   },
   {
     title: "Edusave Certificate of Academic Achievement",
     detail: "Changkat Changi Secondary School · 2025",
-    description: "Recognises good academic performance.",
+    description: "Recognises strong academic performance.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
     imageAlt: "Edusave Certificate of Academic Achievement",
@@ -221,7 +220,7 @@ export const achievements: Achievement[] = [
   {
     title: "CCC – CDC Education Merit Award",
     detail: "Changkat Changi Secondary School · 2024",
-    description: "Recognises good academic performance.",
+    description: "Recognises strong academic performance.",
     image: "images/certificate.svg",
     imageSize: [1240, 1754],
     imageAlt: "Certificate for the CCC – CDC Education Merit Award",
