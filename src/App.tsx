@@ -373,7 +373,14 @@ function HomePage() {
                 <h3>{item.title}</h3>
                 <p className="row-sub">{item.school}</p>
               </div>
-              {item.detail ? <p className="row-detail">{item.detail}</p> : <span />}
+              {item.detail ? (
+                <div className="row-detail-group">
+                  <p className="row-detail">{item.detail}</p>
+                  {item.detailNote && <p className="row-detail-note">{item.detailNote}</p>}
+                </div>
+              ) : (
+                <span />
+              )}
             </article>
           ))}
         </div>

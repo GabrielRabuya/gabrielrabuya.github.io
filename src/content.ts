@@ -40,7 +40,14 @@ export const goals = {
 };
 
 // Most recent first. Leave detail as "" if there is nothing to show (e.g. no GPA).
-export const education = [
+// detailNote is optional: a smaller line shown under detail.
+export const education: {
+  period: string;
+  title: string;
+  school: string;
+  detail: string;
+  detailNote?: string;
+}[] = [
   {
     period: "Apr 2025 – Present",
     title: "Diploma in Aerospace Engineering",
@@ -51,7 +58,8 @@ export const education = [
     period: "2021 – 2024",
     title: "Singapore-Cambridge GCE Ordinary Level",
     school: "Changkat Changi Secondary School",
-    detail: "Distinctions in Literature & Mathematics",
+    detail: "Achieved 15 credits",
+    detailNote: "Distinctions in Literature & Mathematics",
   },
 ];
 

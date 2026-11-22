@@ -457,6 +457,16 @@
   white-space: nowrap;
 }
 
+.row-detail-group {
+  text-align: right;
+}
+
+.row-detail-note {
+  color: #5a5954;
+  font-size: 0.92rem;
+  margin-top: 0.3rem;
+}
+
 .row-photo {
   align-self: start;
   aspect-ratio: 4 / 3;
@@ -958,9 +968,18 @@
     display: none;
   }
 
-  .row-detail {
+  .row-detail,
+  .row-detail-group {
     justify-self: start;
     margin-top: 0.5rem;
+  }
+
+  .row-detail-group {
+    text-align: left;
+  }
+
+  .row-detail-group .row-detail {
+    margin-top: 0;
   }
 
   .row--media {
