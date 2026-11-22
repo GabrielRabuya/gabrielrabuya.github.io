@@ -178,8 +178,8 @@ export const involvement: Involvement[] = [
     period: "Jan 2022 – Dec 2022",
     title: "Class Chairperson, Changkat Changi Secondary School",
     points: [
-      "Facilitated class cohesion and teamwork to accomplish multiple class tasks",
       "Acted as the primary contact between form teachers and classmates, organizing information for the class",
+      "Facilitated class cohesion and teamwork to accomplish multiple class tasks",
     ],
   },
 ];
