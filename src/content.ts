@@ -161,7 +161,7 @@ export const involvement: Involvement[] = [
     points: [
       "Assisted with stage setup and instrument transport for major performances across campus, allowing efficient preparation",
       "Persevered towards shared goals through tight and shifting rehearsal schedules",
-      "Adapted quickly to far more complex and challenging music, showing a strong willingness to learn",
+      "Adapted quickly to far more complex and challenging music, by taking initiative to independently practice and learn",
     ],
   },
   {
