@@ -159,7 +159,7 @@ export const involvement: Involvement[] = [
     image: "images/tp-band.jpeg",
     imageAlt: "Temasek Polytechnic Band performing on campus",
     points: [
-      "Assisted with stage setup and instrument transport for major performances across campus, allowing efficient preparation",
+      "Assisted with stage setup and instrument transport for major performances across campus to ensure performances are smooth and on-schedule",
       "Persevered towards shared goals through tight and shifting rehearsal schedules while balancing an intensive engineering course load",
       "Adapted quickly to far more complex and challenging music, by taking initiative to independently practice and learn",
     ],
@@ -170,7 +170,7 @@ export const involvement: Involvement[] = [
     image: "images/changkat-band.jpeg",
     imageAlt: "Student leaders at the Changkat Changi Secondary School Student Leaders' Investiture Ceremony 2024",
     points: [
-      "Managed inventory, instrument handling and storage orderliness to prevent loss or damage to the band's instruments",
+      "Oversaw inventory and instrument handling, and organized storage to prevent displacement and damage to the band's instruments",
       "Enforced safety and discipline among band members to ensure proper conduct during band",
     ],
   },
@@ -179,7 +179,7 @@ export const involvement: Involvement[] = [
     title: "Class Chairperson, Changkat Changi Secondary School",
     points: [
       "Facilitated class cohesion and teamwork to accomplish multiple class tasks",
-      "Identified hazards during class activities to keep the environment safe",
+      "Acted as the primary contact between form teachers and classmates, organizing information for the class",
     ],
   },
 ];
