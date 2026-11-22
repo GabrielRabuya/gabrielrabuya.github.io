@@ -200,7 +200,7 @@ type Achievement = {
 export const achievements: Achievement[] = [
   {
     title: "Best in Literature in English",
-    detail: "Changkat Changi Secondary School · 2025",
+    detail: "Changkat Changi Secondary School · 2024",
     description:
       "Awarded by Changkat Changi Secondary School for top academic performance in Literature in English in GCE 'O' Level Examinations 2024.",
     image: "images/achievements/best-in-literature.jpeg",
@@ -209,7 +209,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "Edusave Award (Eagles)",
-    detail: "Changkat Changi Secondary School · 2025",
+    detail: "Changkat Changi Secondary School · 2024",
     description:
       "Recognises leadership qualities and excellence in non-academic activities.",
     image: "images/achievements/edusave-eagles.jpeg",
@@ -218,7 +218,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "Edusave Certificate of Academic Achievement",
-    detail: "Changkat Changi Secondary School · 2025",
+    detail: "Changkat Changi Secondary School · 2024",
     description: "Recognises strong academic performance.",
     image: "images/achievements/edusave-academic-achievement.jpeg",
     imageSize: [1494, 2048],
@@ -226,7 +226,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "CCC – CDC Education Merit Award",
-    detail: "Changkat Changi Secondary School · 2024",
+    detail: "Changkat Changi Secondary School · 2023",
     description: "Recognises strong academic performance.",
     image: "images/achievements/ccc-cdc-merit.jpeg",
     imageSize: [1429, 2048],
@@ -234,7 +234,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "Edusave Scholarship",
-    detail: "Changkat Changi Secondary School · 2022",
+    detail: "Changkat Changi Secondary School · 2021",
     description: "Recognises excellent academic performance.",
     image: "images/achievements/edusave-scholarship.jpeg",
     imageSize: [1386, 2048],
