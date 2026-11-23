@@ -161,7 +161,7 @@ export const involvement: Involvement[] = [
     points: [
       "Assisted with stage setup and instrument transport for major performances across campus to ensure performances are smooth and on-schedule",
       "Persevered towards shared goals through tight and shifting rehearsal schedules while balancing an intensive engineering course load",
-      "Adapted quickly to far more complex and challenging music, by taking initiative to independently practice and learn",
+      "Adapted quickly to far more complex and challenging music by taking initiative to independently practice and learn",
     ],
   },
   {
@@ -171,7 +171,7 @@ export const involvement: Involvement[] = [
     imageAlt: "Student leaders at the Changkat Changi Secondary School Student Leaders' Investiture Ceremony 2024",
     points: [
       "Oversaw inventory and instrument handling, and organized storage to prevent displacement and damage to the band's instruments",
-      "Enforced safety and discipline among band members to ensure proper conduct during band",
+      "Enforced safety and discipline among band members to ensure proper conduct during band rehearsals and events",
     ],
   },
   {
@@ -180,6 +180,7 @@ export const involvement: Involvement[] = [
     points: [
       "Acted as the primary contact between form teachers and classmates, organizing information for the class",
       "Facilitated class cohesion and teamwork to accomplish multiple class tasks",
+      "Showed strong safety awareness by spotting hazards during class activities and keeping the environment safe",
     ],
   },
 ];
